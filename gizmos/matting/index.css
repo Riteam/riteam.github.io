@@ -1,0 +1,11 @@
+.canvas_box {
+  margin-top: 10px;
+}
+#cv {
+  background-image: linear-gradient(45deg, #ccc 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #ccc 0),
+    linear-gradient(45deg, #ccc 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #ccc 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px, 15px 15px, 30px 30px;
+}

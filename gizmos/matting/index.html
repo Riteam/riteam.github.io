@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>抠图工具</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <input id="fileSelector" type="file" accept="image/*">
+  <div class="canvas_box">
+    <canvas id="cv" width="200" height="200"></canvas>
+    <div>
+      <label>选点颜色：<input id="color" type="color" readonly/></label>
+      <span id="colorFont"></span>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
