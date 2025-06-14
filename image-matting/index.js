@@ -19,9 +19,7 @@ img.onload = function () {
   img.prevUrl = img.src
   drawImage(img)
 }
-img.src = location.host === 'riteam.github.io'
-  ? '/imgs/cat.jpg'
-  : 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=496620333,2325269774&fm=11&gp=0.jpg'
+img.src = './imgs/cat.jpg'
 
 
 const CV = document.getElementById('cv')
