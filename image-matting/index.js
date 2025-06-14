@@ -19,6 +19,7 @@ img.onload = function () {
   img.prevUrl = img.src
   drawImage(img)
 }
+
 img.src = './imgs/cat.jpg'
 
 
