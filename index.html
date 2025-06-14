@@ -5,21 +5,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HOME</title>
+  <link rel="stylesheet" href="./assets/index.css">
 </head>
 
 <body>
-  <h1>Jrc的</h1>
-  <h2>👾 小游戏</h2>
-  <ol>
-    <li><a href="dig-deeper">React 三消小游戏</a></li>
-    <li><a href="chengyu-crossword">Vue3 成语字谜小游戏</a></li>
-  </ol>
-  <h2>🧵 小玩意儿</h2>
-  <ol>
-    <li><a href="pathfinding-demo">航线避障演示</a></li>
-    <li><a href="image-matting">JS抠图</a></li>
-  </ol>
-  <hr>
+  <div class="header">
+
+    <h1>👋 Welcome to <a href="https://github.com/Riteam">Riteam's</a> GitHub Space!</h1>
+    <p class="desc">This is my personal space for showcasing interactive demos. </p>
+    <p class="desc">You can click on any link below to jump to the corresponding interactive page</p>
+  </div>
+  <div class="main">
+    <a class="blur" href="dig-deeper">
+      <img src="./assets/imgs/dig-deeper.png" alt="">
+      <div class="content">
+        <h2>Dig Deeper</h2>
+        <p>A match-3 puzzle game developed for practicing <strong>React</strong> + <strong>Typescript</strong>. It
+          implements smooth animations based on
+          <strong>mojs</strong>, and its art style is inspired by Minecraft.
+        </p>
+        <span class="date">Last updated: 2025-06</span>
+      </div>
+    </a>
+
+    <a class="blur" href="pathfinding-demo">
+      <img src="./assets/imgs/pathfinding-demo.png">
+      <div class="content">
+        <h2>Pathfinding Demo</h2>
+        <p>
+          A demo demonstrating two path detour modes, based on the <strong>A* algorithm</strong> and <strong>Dijkstra's
+            algorithm</strong>.
+        </p>
+        <span class="date">Last updated: 2025-06</span>
+      </div>
+    </a>
+
+    <a class="blur" href="chengyu-crossword">
+      <img src="./assets/imgs/chengyu-crossword.png">
+      <div class="content">
+        <h2>Chengyu Crossword</h2>
+        <p>
+          A demo of a Chinese idiom (Chengyu) crossword game from a real project, with the code refactored using
+          <strong>Vue
+            3</strong>.
+        </p>
+        <span class="date">Last updated: 2021-04</span>
+      </div>
+    </a>
+
+    <a class="blur" href="image-matting">
+      <img src="./assets/imgs/image-matting.png">
+      <div class="content">
+        <h2>Image Matting</h2>
+        <p>
+          A simple image matting tool using <strong>Breadth-First Search (BFS)</strong>.
+        </p>
+        <span class="date">Last updated: 2021-03</span>
+      </div>
+    </a>
+  </div>
 </body>
 
 </html>
