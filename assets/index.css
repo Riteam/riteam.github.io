@@ -13,13 +13,14 @@ h1 a {
 
 .desc {
   font-size: 20px;
-  margin: 10px 20px;
+  margin: 10px 0;
 }
 
 .header {
   overflow: hidden;
   background: linear-gradient(to bottom, #000000cc, #00000000);
   color: #fff;
+  padding: 0 20px;
 }
 
 .blur {
@@ -32,7 +33,7 @@ h1 a {
   border: .5px solid rgba(255, 255, 255, .5);
   border-right: 0;
   border-bottom: 0;
-  background: rgba(255, 255, 255, .4);
+  background: rgba(255, 255, 255, .2);
   backdrop-filter: blur(6px);
   /* overflow: hidden; */
   box-shadow: 0 0 4px #0000004d;
@@ -40,6 +41,10 @@ h1 a {
   color: #333;
   padding: 10px;
   transition: all 0.4s;
+}
+
+.blur:hover {
+  background: rgba(255, 255, 255, .4);
 }
 
 .blur img {
@@ -68,6 +73,11 @@ h1 a {
   padding: 0 20px;
 }
 
+.content h2 {
+  margin: 0;
+
+}
+
 .content .date {
   margin-top: auto;
   font-style: italic;
@@ -78,4 +88,20 @@ h1 a {
 .main {
   display: flex;
   flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 564px) {
+  .blur {
+    flex-wrap: wrap;
+  }
+
+  .blur img {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    padding: 0;
+  }
 }
