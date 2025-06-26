@@ -1,5 +1,5 @@
 body {
-  background: #faf7e8;
+  background: #1099bb;
   /* url(./imgs/beach.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -15,6 +15,10 @@ h1 a {
 .desc {
   font-size: 20px;
   margin: 10px 0;
+}
+
+.desc a {
+  color: yellow;
 }
 
 .header {
